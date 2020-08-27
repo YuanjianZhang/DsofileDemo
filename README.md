@@ -1,5 +1,7 @@
 # DsofileDemo
 
+修改文档摘要属性的demo
+
 Dsofile.dll Source：https://www.microsoft.com/en-us/download/details.aspx?id=8422
 
 reference：
