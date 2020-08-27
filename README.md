@@ -2,6 +2,10 @@
 
 修改文档摘要属性的demo
 
+在进行之前需要确保本地已注册Dsofile.dll组件
+
+COM组件dll注册方法：https://www.cnblogs.com/iiwen/p/4516888.html
+
 Dsofile.dll Source：https://www.microsoft.com/en-us/download/details.aspx?id=8422
 
 reference：

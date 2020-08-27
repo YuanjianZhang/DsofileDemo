@@ -22,6 +22,8 @@ namespace DsofileDemo
         {
             try
             {
+                //在进行之前需要确保本地已注册Dsofile.dll组件
+                //COM组件dll注册方法：https://www.cnblogs.com/iiwen/p/4516888.html
                 DSOFile.OleDocumentProperties dso = new DSOFile.OleDocumentProperties();
                 dso.Open(filePath, true, DSOFile.dsoFileOpenOptions.dsoOptionOpenReadOnlyIfNoWriteAccess);
                 Console.WriteLine(dso.SummaryProperties.Title);
